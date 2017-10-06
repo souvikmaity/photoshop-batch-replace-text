@@ -8,8 +8,8 @@ var txtLayer = doc.layers.getByName('promo');
 // obviously, the text layer if found
 
 if (txtLayer) {
-  for (var j = 3; i < 26; i++) {
-    txtLayer.textItem.contents = '\'EarnWithSquad' + j + '\'';
+  for (var j = 3; j < 26; j++) {
+    txtLayer.textItem.contents = 'Your Text Here';
       // update layer content
       var ext = '.png',
       dir = decodeURI(doc.path) + '/png24',
